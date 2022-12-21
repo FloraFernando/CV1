@@ -1,0 +1,171 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    background-color: white;
+}
+.links{
+    text-decoration: none;
+    color: blueviolet;
+    position: relative;
+}
+.links::after{
+    content: " " ;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.links:hover::after{
+    width: 100%;
+
+}
+.dvlinks{
+	display: flex;
+	position: absolute;
+	top: 5%;
+	right: 15%;
+	column-gap: 10px;
+}
+
+.span_nome{
+    color: black;
+}
+
+.nivel11{
+    
+    position: absolute;
+    right: 80%;
+    bottom: 60%;
+    left: 3%;
+}
+.nivel12{
+    position: absolute;
+    right: 70%;
+    bottom: 50%;
+    left: 3%;
+}
+.nivel13{
+    position: absolute;
+    right: 60%;
+    bottom: 40%;
+}
+.sobre_mim{
+    color: blueviolet;
+    display: flex;
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	column-gap: 10px;
+	transform: translate(-10%,-40%);
+}
+.sobremim_div{
+    position: absolute;
+    right: 60%;
+    bottom: 40%;
+    left: 4%; 
+
+}
+h2{
+    position: absolute;
+    right: 50%;
+    bottom: 60%;
+    left: 4%;   
+}
+.p{
+    position: absolute;
+    right: 75%;
+    bottom: 65%;
+    left: 5%;
+}
+img{
+    
+    width: 40px;
+    height: 40px;
+    
+}
+.div_img1{
+    width: 340px;
+    color: blueviolet;
+    position: absolute;
+    right: 75%;
+    bottom: 55%;
+    left: 5%; 
+    background-color: black;
+    border-radius: 10px;
+}
+.div_img2{
+    width: 340px;
+    color: blueviolet;
+    position: absolute;
+    right: 65%;
+    bottom: 45%;
+    left: 5%; 
+    background-color: black;
+    border-radius: 10px;
+}
+.div_img3{
+    width: 340px;
+    color: blueviolet;
+    position: absolute;
+    right: 55%;
+    bottom: 35%;
+    left: 5%; 
+    background-color: black;
+    border-radius: 10px;
+}
+.div_img4{
+    width: 340px;
+    color: blueviolet;
+    position: absolute;
+    right: 45%;
+    bottom: 25%;
+    left: 5%; 
+    background-color: black;
+    border-radius: 10px;
+}
+.div_img1::after{
+        content: " " ;
+        width: 90%;
+        height: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: blueviolet;
+       
+}
+.div_img2::after{
+    content: " " ;
+    width: 70%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: blueviolet;
+   
+}
+.div_img3::after{
+    content: " " ;
+    width: 50%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: blueviolet;
+   
+}
+.div_img4::after{
+    content: " " ;
+    width: 40%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: blueviolet;
+   
+}
